@@ -9,7 +9,7 @@ A script that makes Ralsei from Deltarune follow your mouse cursor. Based on [on
 - Walking animations in all directions
 
 ## Usage
-Download and add this to your HTML:
+Download both the script and the sprites, then add this to your HTML:
 ```html
 <script src="ralsei.js"></script>
 ```
