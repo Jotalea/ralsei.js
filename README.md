@@ -2,6 +2,10 @@
 
 A script that makes Ralsei from Deltarune follow your mouse cursor. Based on [oneko.js](https://github.com/adryd325/oneko.js).
 
+## Demo
+
+![Demo](demo.gif)
+
 ## Features
 - Ralsei follows your mouse pointer
 - Click to make him blush for 8 seconds
