@@ -13,7 +13,18 @@ A script that makes Ralsei from Deltarune follow your mouse cursor. Based on [on
 - Walking animations in all directions
 
 ## Usage
-Download both the script and the sprites, then add this to your HTML:
+
+### Client-side
+If you want to add Ralsei on every website you browse, make a new bookmark with this content
+```javascript
+javascript:(function(){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/gh/Jotalea/ralsei.js@main/ralsei.js';document.head.appendChild(s);})();
+```
+Then, whenever you click on this bookmark, Ralsei should appear and follow you.
+
+Alternatively, you can use the TamperMonkey addon and add the ralsei.js script as a userscript in that extension.
+
+### Server-side
+If you want to add Ralsei to your own site, add this to your HTML:
 ```html
-<script src="ralsei.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/Jotalea/ralsei.js@main/ralsei.js"></script>
 ```
